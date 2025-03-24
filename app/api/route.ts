@@ -1,5 +1,3 @@
-import { json } from "node:stream/consumers";
-
 export async function GET(request: Request) {
     let requestHeaders = Object.fromEntries(request.headers.entries());
     // console.log({r: requestHeaders})
